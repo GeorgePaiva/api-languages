@@ -1,0 +1,10 @@
+server:
+  port: 8011
+
+
+spring:
+  data:
+    mongodb:
+      database: languagesDB
+      uri: mongodb+srv://kyrius:4rYNfd0L6Kt9PLgq@cluster-kyrius.r6o3m3g.mongodb.net/?retryWrites=true&w=majority
+
