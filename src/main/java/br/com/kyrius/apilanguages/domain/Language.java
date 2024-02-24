@@ -13,9 +13,9 @@ import java.io.Serializable;
 public class Language implements Serializable {
 
     @Id
-    private final String id;
-    private final String title;
-    private final String image;
+    private String id;
+    private String title;
+    private String image;
     private int ranking;
 
     public void setRanking(final int ranking) {
